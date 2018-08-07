@@ -17,7 +17,6 @@ def load_library(file_path)
     emoticons_library["get_meaning"][jpn] = eng
   end
   emoticons_library
-  binding.pry
 end
 
 def get_japanese_emoticon
