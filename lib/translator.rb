@@ -26,7 +26,7 @@ def get_japanese_emoticon(file_path, eng_emoticon)
   jpn_emoticon ? jpn_emoticon : "Sorry, that emoticon was not found"
 end
 
-def get_english_meaning
+def get_english_meaning(file_path, jpn_emoticon)
   # code goes here
   
 end
