@@ -14,7 +14,7 @@ def load_library(file_path)
     eng = emoticons[0]
     jpn = emoticons[1]
     emoticons_library["get_emoticon"][eng] = jpn
-    emoticons_library["get_meaning"][jpn] = eng
+    emoticons_library["get_meaning"][jpn] = emotion
   end
   emoticons_library
 end
